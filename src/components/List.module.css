@@ -1,0 +1,303 @@
+.appName{
+    margin: 10px;
+
+}
+
+.noteButton{
+    background-color: #000;
+    color: #fff;
+    width: 180px;
+    height: 25px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background: #fff;
+    width: 500px;
+    height: 200px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .modalText{
+    font-weight: 500;
+    font-size: large;
+    
+  }
+
+  .modalInput{
+    width: 300px;
+    height: 30px;
+    border-radius: 40px;
+    border: #e6e6e6 solid;
+    color: #979797;
+    padding-left: 20px;
+    margin: 20px;
+  }
+
+  .chooseColor{
+    display: flex;
+    margin: 0 20px;
+  }
+  
+ .purple{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #B38BFA;
+    margin: 0 5px;
+ }
+
+ .pink{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FF79F2;
+    margin: 0 5px;
+ }
+
+ .skyBlue{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #43E6FC;
+    margin: 0 5px;
+ }
+
+ .orange{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #F19576;
+    margin: 0 5px;
+ }
+
+ .blue{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0047FF;
+    margin: 0 5px;
+
+
+ }
+  
+ .cobaltBlue{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #6691FF;
+    margin: 0 5px;
+ }
+
+ .createButton{
+    width: 100px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+ }
+
+
+ /* .modalColor {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  } */
+  
+  .noteItem {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  .noteColor {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    font-size: 20px;
+  }
+  
+  .noteDetails {
+    margin-left: 10px;
+  }
+
+.groupList{
+  margin-top: 20px;
+}
+
+.scrollable {
+  overflow-y: auto;
+  max-height: 80vh; 
+}
+
+.scrollable::-webkit-scrollbar {
+  width: 0; 
+}
+
+  .noteItem:hover{
+    background-color: #F7ECDC;
+    border-radius: 0 10px 10px 0px;
+  }
+
+  .selected {
+    background-color: #F7ECDC;
+    border-radius: 0 10px 10px 0px;
+  }
+  
+  .noteName {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .visible{
+    display: block;
+  }
+
+  .hidden{
+    display: none;
+  }
+  
+@media screen and (max-width:500px) {
+  .appName {
+    font-size: 1.2em;
+  }
+
+  .noteButton {
+    background-color: #000;
+    color: #fff;
+    width: 25em;
+    height: 5em;
+    border-radius: 20px;
+    margin: 20px;
+  }
+
+  .buttonSpan{
+    font-size: 2em;
+  }
+
+  .groupList{
+    margin-top: 20px;
+    width: 30em;
+  }
+
+  .noteItem {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+  }
+
+  
+  .noteItem {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  .noteColor {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    font-size: 2em;
+  }
+  
+  .noteDetails {
+    margin-left: 10px;
+  }
+
+
+ .scrollable {
+  overflow-y: auto;
+  max-height: 80vh; 
+}
+
+.scrollable::-webkit-scrollbar {
+  width: 0; 
+}
+
+  .noteItem:hover{
+    background-color: #F7ECDC;
+    border-radius: 0 30px 30px 0px;
+  }
+
+  .selected {
+    background-color: #F7ECDC;
+    border-radius: 0 10px 10px 0px;
+  }
+   
+  .noteName {
+    font-size: 2em;
+    font-weight: 600;
+    margin-left: 50px;
+    
+  }
+
+  .visible{
+    display: block;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  .modalContent {
+    background: #fff;
+    width: 20em;
+    height: 15em;
+    margin-right: 4em;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .modalText{
+    font-weight: 500;
+    font-size: large;
+    
+  }
+
+  .modalInput{
+    width: 17em;
+    height: 30px;
+    border-radius: 40px;
+    border: #e6e6e6 solid;
+    color: #979797;
+    padding-left: 20px;
+    margin: 20px;
+  }
+
+  .chooseColor{
+    display: flex;
+    margin: 0 1px;
+  }
+  
+  .createButton {
+    width: 100%; 
+  }
+
+} 

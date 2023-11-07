@@ -1,0 +1,113 @@
+.container
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F7ECDC;
+}
+
+.banner {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 20vh;
+}
+
+.borderBox{
+    position: relative;
+    background-color: #E8E8E8;
+    height: 20vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+}
+
+textarea{
+ width:70%;
+ height: 100%;
+ padding-left: 20px;
+ font-size: 1.5em;
+ border: none;
+resize: none;
+}
+
+.submitButton{
+position: absolute; 
+bottom: 30px;
+left: 65%;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+.scrollable {
+    margin-top: 20vh;
+    overflow-y: auto;
+    max-height: 55vh; 
+  }
+  
+  .scrollable::-webkit-scrollbar {
+    width: 0; 
+  }
+
+  .noteGroupName{
+    position: relative;
+    background-color: #E8E8E8;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    padding: 20px;
+  }
+
+  @media screen and (max-width:500px){
+    .submitButton{
+        width: 1.5em;
+        position: absolute; 
+       bottom: 30px;
+        left: 65%;
+    }
+
+    .borderBox{
+        position: relative;
+        background-color: #E8E8E8;
+        height: 10vh;
+        width: 100vw;
+        position: fixed;
+        bottom: 0;
+        padding: 20px;
+    }
+
+    textarea{
+        width:80%;
+        height: 100%;
+        padding-left: 20px;
+        border: none;
+       resize: none;
+       }
+
+       .scrollable {
+        margin-top: 10vh;
+        overflow-y: auto;
+        max-height: 100vh; 
+      }
+
+      
+  .noteGroupName{
+    position: relative;
+    background-color: #E8E8E8;
+    height: 2vh;
+    width: 100vw;
+    position: fixed;
+    padding: 20px;
+  }
+  }
